@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="
+          nabbar
+          navbar
+          d-md-flex
+          justify-content-between
+          align-items-center
+        "
+      >
+        <div class="container">
+          <div class="logo-image">
+            <div class="img">
+              <img src="./asset/logo.png" alt="image" />
+            </div>
+          </div>
+
+          <div class="nav-menu_right">
+            <ul class="nav-ul">
+              <li>
+                <img src="./asset/CircledMenu.png" alt="" style="margin-right: 5px;"/><a href="">服務</a>
+              </li>
+              <li><a href="">專欄文章</a></li>
+              <li><img src="./asset/eng.png" alt="" /></li>
+              <li><img src="./asset/Profile.png" alt="" /></li>
+            </ul>
+
+            <a
+              class="navbar-mobile"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+            <img src="./asset/profile.png" alt="" class="profile-nav">
+              <i
+                class="fas fa-bars"
+                style="
+                  color: #000;
+                  display: flex;
+                  justify-content: flex-end;
+                  align-items: flex-end;
+                  font-size: 25px;
+                "
+              ></i>
+            </a>
+          </div>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <div class="offcanvas-body">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <a class="accordion-buttons" href="">
+                    服務
+                  </a>
+                </div>
+                <div class="accordion-item">
+                  <a
+                    class="accordion-buttons"
+                    href=""
+                  >
+                  專欄文章
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner">
+      <div>
+        <input
+          class="placeholder placeholder-mb"
+          type="text"
+          placeholder="請輸入您要尋找的活動"
+        />
+        <h1>誠摯邀你一起成為我們遊山玩水的夥伴</h1>
+        <p>橘子貓帶大家「心靈上享受真正的大自然」</p>
+        <input
+          class="placeholder placeholder-pc"
+          type="text"
+          placeholder="請輸入您要尋找的活動"
+        />
+      </div>
+      <div class=img-banners>
+        <img src="./asset/banner.png" alt="" class="img-banner" />
+      </div>
+    </div>
+    <div>
+      <h2>-點選您要尋找的服務-</h2>
+    </div>
+    <div class="slider-slicks">
+      <div class="slider-child">
+        <div class="image">
+          <img src="./asset/slider1.png" alt="" />
+        </div>
+        <p>包車</p>
+      </div>
+      <div class="slider-child">
+        <div class="image">
+          <img src="./asset/slider2.png" alt="" />
+        </div>
+        <p>帆船</p>
+      </div>
+      <div class="slider-child">
+        <div class="image">
+          <img src="./asset/slider3.png" alt="" />
+        </div>
+        <p>山岳</p>
+      </div>
+      <div class="slider-child">
+        <div class="image">
+          <img src="./asset/slider4.png" alt="" />
+        </div>
+        <p>瑜珈</p>
+      </div>
+    </div>
+    <div class="category">
+      <select name="select" id="select">
+        <option value="包車">看 更多</option>
+        <option value="包車">包車</option>
+        <option value="帆船">帆船</option>
+        <option value="山岳">山岳</option>
+        <option value="瑜珈">瑜珈</option>
+      </select>
+    </div>
+    <div>
+      <h2 class="h2-mb">-最新文章-</h2>
+    </div>
+    <div class="news-section">
+      <img src="./asset/news.png" alt="">
+    </div>
+    <div class="category">
+      <select name="select" id="select-d" class="select-d">
+        <option value="包車">看 更多</option>
+        <option value="包車">包車</option>
+        <option value="帆船">帆船</option>
+        <option value="山岳">山岳</option>
+        <option value="瑜珈">瑜珈</option>
+      </select>
+    </div>
+    <div class="image-thumbnail">
+      <img src="./asset/new2.png" alt="">
+    </div>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="address">
+          <img src="./asset/logo2.png" alt="">
+          <p>真心國際旅行社有限公司(橘子貓TTtrips)</p>
+          <p class="address-p">甲種旅行社 統一編號 47072308 服務據</p>
+          <p>點：116 台北市文山區羅斯福路6段107號</p>
+          <p>電話：0919266232  傳真：02-29343589</p>
+          <p>客服信箱 : <a href="">service@tttrips.com</a></p>
+        </div>
+        <div class="credit">
+          <button>出團總表</button>
+          <button>聯絡我們</button>
+          <br>
+          <img src="./asset/credit.png" alt="">
+          <p>Copyright © 2021 TTtrips. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
